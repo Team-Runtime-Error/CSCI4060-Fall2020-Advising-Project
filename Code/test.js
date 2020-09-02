@@ -29,3 +29,4 @@ connection.query('SELECT testString, testInt from Test;', function (err, rows, f
 connection.query("INSERT INTO Test VALUES ('stringstringstring', 5)")
 
 connection.end()
+ 
