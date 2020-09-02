@@ -6,10 +6,10 @@ var mysql = require('mysql')
 
 // create connection to db
 var connection = mysql.createConnection({
-  host: 'tre-database2.cyfkpcgifi17.us-east-2.rds.amazonaws.com',
-  user: 'rds_user',
-  password: '5uP3rSecR3t',
-  database: 'testDB'
+  host: '',
+  user: '',
+  password: '',
+  database: ''
 })
 
 
